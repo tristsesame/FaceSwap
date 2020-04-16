@@ -1,0 +1,1 @@
+pyinstaller --clean zad2_cpp_dump.spec

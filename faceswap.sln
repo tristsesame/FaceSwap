@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "faceswap", "src\faceswap.vcxproj", "{6835F48D-B462-3BDB-AABD-897F59CC8ABC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Debug|Win32.Build.0 = Debug|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Debug|x64.ActiveCfg = Debug|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Debug|x64.Build.0 = Debug|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Release|Win32.ActiveCfg = Release|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Release|Win32.Build.0 = Release|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Release|x64.ActiveCfg = Release|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.Release|x64.Build.0 = Release|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{6835F48D-B462-3BDB-AABD-897F59CC8ABC}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADB2D65B-28E4-3773-B92F-9BD6FD4627EF}
+	EndGlobalSection
+EndGlobal

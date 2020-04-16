@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6835F48D-B462-3BDB-AABD-897F59CC8ABC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>faceswap</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\workdir\imageProject\faceswap\FaceSwap-py2cpp\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">faceswap.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">faceswap</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">faceswap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\workdir\imageProject\faceswap\FaceSwap-py2cpp\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">faceswap.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">faceswap</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">faceswap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\workdir\imageProject\faceswap\FaceSwap-py2cpp\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">faceswap.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">faceswap</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">faceswap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\workdir\imageProject\faceswap\FaceSwap-py2cpp\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">faceswap.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">faceswap</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">faceswap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/Debug/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/Debug/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/Debug/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/Debug/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3 -mavx2 -ffast-math -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/Release/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/Release/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -O3 -mavx2 -ffast-math -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/Release/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/Release/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/MinSizeRel/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/MinSizeRel/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/MinSizeRel/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/MinSizeRel/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/RelWithDebInfo/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/RelWithDebInfo/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++latest /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;XTENSOR_ENABLE_XSIMD;XTENSOR_USE_XSIMD;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\opencv-4.2.0\build\include;D:\workdir\zlib;C:\dev\dlib-19.19;C:\dev\xtensor-master\install\include;C:\dev\xtensor-blas-master\include;C:\dev\xtl-master\install\include;C:\dev\xsimd-master\install\include;C:\dev\boost_1_70_0;C:\dev\OpenSSL-Win64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libopenblas.dll.a.lib;libssl_static.lib;libcrypto_static.lib;zlibwapi.lib;opencv_world420.lib;dlib19.19.0_release_64bit_msvc1900.lib;opengl32.lib;gdi32.lib;uuid.lib;ole32.lib;comctl32.lib;oleaut32.lib;Comdlg32.lib;shlwapi.lib;winspool.lib;glu32.lib;Version.lib;UxTheme.lib;Oleacc.lib;imm32.lib;Ws2_32.lib;advapi32.lib;crypt32.lib;user32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/dev/opencv-4.2.0/build/x64/vc14/lib;C:/dev/opencv-4.2.0/build/x64/vc14/lib/$(Configuration);D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease;D:/workdir/zlib/contrib/vstudio/vc10/x64/ZlibDllRelease/$(Configuration);C:/dev/dlib-19.19/build/dlib/Release;C:/dev/dlib-19.19/build/dlib/Release/$(Configuration);C:/dev/boost_1_70_0/vc14-x64/lib;C:/dev/boost_1_70_0/vc14-x64/lib/$(Configuration);C:/msys64/mingw64/lib;C:/msys64/mingw64/lib/$(Configuration);C:/dev/OpenSSL-Win64/lib;C:/dev/OpenSSL-Win64/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/build/src/RelWithDebInfo/faceswap.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workdir/imageProject/faceswap/FaceSwap-py2cpp/bin/RelWithDebInfo/faceswap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

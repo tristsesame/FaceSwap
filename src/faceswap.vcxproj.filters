@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workdir\imageProject\faceswap\FaceSwap-py2cpp\src\py2cpp\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AF55263B-8D67-32FF-8397-F5AC71549500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
